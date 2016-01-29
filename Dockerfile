@@ -11,7 +11,4 @@ RUN source /usr/local/nvm/nvm.sh && npm install --production
 # Copy source files to container
 COPY . /app
 
-# Copy superviosr conf file
-COPY app.conf /etc/supervisor/conf.d/app.conf
-
-CMD supervisord -c /etc/supervisor/supervisord.conf -n
+CMD source /usr/local/nvm/nvm.sh && npm start
