@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "main": "",
+  "scripts": {
+    "start": "",
+	 "build": "docker build --force-rm --no-cache -t ."
+  },
+  "dependencies": {
+  }
+}
