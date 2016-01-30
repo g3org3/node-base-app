@@ -1,5 +1,4 @@
 FROM g3org3/node
-MANTAINER George <7jagjag@gmail.com>
 
 # Set working directory
 WORKDIR /app
